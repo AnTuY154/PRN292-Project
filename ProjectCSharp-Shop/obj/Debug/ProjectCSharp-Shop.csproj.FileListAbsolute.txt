@@ -62,3 +62,10 @@ C:\Users\84963\Downloads\PRN292-master\PRN292-master\ProjectCSharp-Shop\bin\Proj
 C:\Users\84963\Downloads\PRN292-master\PRN292-master\ProjectCSharp-Shop\bin\ProjectCSharp-Shop.dll
 C:\Users\84963\Downloads\PRN292-master\PRN292-master\ProjectCSharp-Shop\bin\ProjectCSharp-Shop.pdb
 C:\Users\84963\Downloads\PRN292-master\PRN292-master\ProjectCSharp-Shop\obj\Debug\ProjectCSharp-Shop.csproj.CopyComplete
+C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharp-Shop\bin\ProjectCSharp-Shop.dll.config
+C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharp-Shop\bin\ProjectCSharp-Shop.dll
+C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharp-Shop\bin\ProjectCSharp-Shop.pdb
+C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharp-Shop\obj\Debug\ProjectCSharp-Shop.csprojAssemblyReference.cache
+C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharp-Shop\obj\Debug\ProjectCSharp-Shop.csproj.CopyComplete
+C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharp-Shop\obj\Debug\ProjectCSharp-Shop.dll
+C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharp-Shop\obj\Debug\ProjectCSharp-Shop.pdb

@@ -1,0 +1,12 @@
+using System.Data.SqlClient;
+using System.Web.Configuration;
+String connStr = WebConfigurationManager.ConnectionStrings["myConnection"].ConnectionString;
+SELECT:
+   SqlConnection con = new SqlConnection(connStr);
+   SqlDataAdapter da = new SqlDataAdapter("Query", con);
+DELETE, UPDATE, ADD:
+     SqlConnection con = new SqlConnection(connStr);
+     SqlCommand cmd = new SqlCommand("Query", con);
+     con.Open();
+     cmd.ExecuteNonQuery();
+     con.Close();

@@ -95,6 +95,7 @@
     <Content Include="Assets\js\main.js" />
     <Content Include="Assets\js\nouislider.min.js" />
     <Content Include="Assets\js\slick.min.js" />
+    <Content Include="KetNoiDataBase\database.txt" />
     <Content Include="UI\Index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -161,7 +162,7 @@
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
-  </ProjectExtensions> 
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
