@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Common.master.cs" Inherits="ProjectCSharpAdmin.UI.Common" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Electric Shop Online</title>
+    <meta name="description" content="Electric Shop Online">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../Assets/Public/Framework/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Assets/Public/Framework/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Assets/Public/Css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Left Panel -->
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../Assets/Public/images/logo.png" alt="Logo"></a>
+            </div>
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <h3 class="menu-title">Hàng Hóa</h3>
+                    <!-- /.menu-title -->
+                    <li class="menu-item-has-children">
+                        <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-laptop"></i>Các Mặt Hàng</a> </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-table"></i>Bán hàng</a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-th"></i>Nhập Hàng</a>
+                    </li>
+                    <h3 class="menu-title">Quản lý</h3>
+                    <!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-tasks"></i>Nhà Cung Cấp</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="menu-icon fa fa-th"></i>Khách Hàng</a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-bar-chart"></i>Nhân Viên</a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-area-chart"></i>Thống Kê</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+    </aside>
+    <!-- /#left-panel -->
+    <!-- Left Panel -->
+    <!-- Right Panel -->
+    <div id="right-panel" class="right-panel">
+        <!-- Header-->
+        <header id="header" class="header">
+            <div class="header-menu">
+                <div class="col-sm-7">
+                    <div class="header-left">
+                        Write something in here
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="user-area dropdown float-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="user-avatar rounded-circle" src="../Assets/Public/images/admin.jpg" alt="User Avatar">
+                        </a>
+                        <div class="user-menu dropdown-menu">
+                            <a class="nav-link" href="#"><i class="fa fa-user"></i>My Profile</a>
+                            <a class="nav-link" href="#"><i class="fa fa-power-off"></i>Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- Header-->
+        <div class="breadcrumbs">
+            <div class="col-sm-12">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1>Đường dẫn/Đường dẫn 1/Đường dẫn 2</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content mt-3">
+            <form id="form1" runat="server">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- /#right-panel -->
+    <!-- Right Panel -->
+
+    <script src="../Assets/Public/Framework/jquery-3.4.1.min.js"></script>
+    <script src="../Assets/Public/Framework/popper.min.js"></script>
+    <script src="../Assets/Public/Framework/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
