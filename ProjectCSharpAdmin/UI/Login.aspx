@@ -25,22 +25,25 @@
                     </a>
                 </div>
                 <div class="login-form">
-                    <form>
+                    <form id="form1" runat="server">
                         <div class="form-group">
                             <label>Username</label>
-                            <input type="text" class="form-control" placeholder="Username"/>
+                            <asp:TextBox ID="TextBox1" class="form-control" placeholder="User Name" runat="server"></asp:TextBox>    
                         </div>
                         <div class="form-group">
                             <label>Password</label>
-                            <input type="password" class="form-control" placeholder="Password"/>
+                             <asp:TextBox ID="TextBox2"   class="form-control" type="password" placeholder="Password" runat="server"></asp:TextBox>  
                         </div>
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox"/>
-                                Remember Me
+                                <asp:CheckBox ID="checkBox1" runat="server" />Remember Me
                             </label>
+                           
+                           
+                           
                         </div>
-                        <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
+                         <asp:Button ID="Button1"  class="btn btn-success btn-flat m-b-30 m-t-30" runat="server" Text="Quản Lý" Width="235px" OnClick="Button1_Click" />
+                         <asp:Button ID="Button2"  class="btn btn-info btn-flat m-b-30 m-t-30" runat="server" Text="Bán Hàng" Width="235px" OnClick="Button2_Click" />
                         <div class="register-link m-t-15 text-center">
                             <p>Don't have account ? <a href="#">Sign Up Here</a></p>
                         </div>

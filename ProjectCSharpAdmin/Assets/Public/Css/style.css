@@ -1818,11 +1818,13 @@ header .form-inline {
   text-transform: none; }
 
 .login-form .btn {
-  width: 100%;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 15px;
-  border: 0; }
+  border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px;
+}
 
 .login-form label {
   color: #878787;

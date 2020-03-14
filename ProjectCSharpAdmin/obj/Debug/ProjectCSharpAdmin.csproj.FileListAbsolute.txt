@@ -69,3 +69,10 @@ C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharpAdmin\obj\Debug\ProjectCS
 C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharpAdmin\obj\Debug\ProjectCSharpAdmin.csproj.CopyComplete
 C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharpAdmin\obj\Debug\ProjectCSharpAdmin.dll
 C:\Users\84963\Documents\C#\GitHub-PRN292\ProjectCSharpAdmin\obj\Debug\ProjectCSharpAdmin.pdb
+C:\Users\Darkness_King\Source\Repos\PRN292-Project2\ProjectCSharpAdmin\bin\ProjectCSharpAdmin.dll.config
+C:\Users\Darkness_King\Source\Repos\PRN292-Project2\ProjectCSharpAdmin\bin\ProjectCSharpAdmin.dll
+C:\Users\Darkness_King\Source\Repos\PRN292-Project2\ProjectCSharpAdmin\bin\ProjectCSharpAdmin.pdb
+C:\Users\Darkness_King\Source\Repos\PRN292-Project2\ProjectCSharpAdmin\obj\Debug\ProjectCSharpAdmin.csprojAssemblyReference.cache
+C:\Users\Darkness_King\Source\Repos\PRN292-Project2\ProjectCSharpAdmin\obj\Debug\ProjectCSharpAdmin.csproj.CopyComplete
+C:\Users\Darkness_King\Source\Repos\PRN292-Project2\ProjectCSharpAdmin\obj\Debug\ProjectCSharpAdmin.dll
+C:\Users\Darkness_King\Source\Repos\PRN292-Project2\ProjectCSharpAdmin\obj\Debug\ProjectCSharpAdmin.pdb
