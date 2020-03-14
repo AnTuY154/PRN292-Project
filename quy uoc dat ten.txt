@@ -1,0 +1,7 @@
+Quy tắc:
+  1. Tạo entity mới, sửa database phải báo bằng messenger
+  2. Đặt tên webform theo chức năng mình làm : ManageStaff, AddStaff, AddItems, UpdateItems....
+  3. Đặt tên function theo format: <tên mình>_<tên function>: viet_loaddata()
+Quy tắc code: 
+Sau khi code. Nếu đoạn nào chưa xong mà bị lỗi thì phải comment vào.
+Trước khi gửi ngược lại lên phải chạy code lần cuối nếu không có bắt cứ lỗi gì mới được gửi lên
