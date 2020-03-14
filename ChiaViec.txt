@@ -1,0 +1,21 @@
+
+Phan Ban Hang
+Anh Tuan: Login-Ban Hang
+Khac Viet: Trang ban Hang : Lấy cái mockup mà thằng Hoàng vẽ làm theo hoặc đợi kiên online chụp cái trang bán hàng của web nhà kiên rồi làm
+
+
+// Phan Quan Ly
+Hoang : Hang Hoa+ Nhập Hàng
+Trong Hàng Hóa của Kiên Thêm 1 tính năng là: Ấn vào chi tiết sẽ hiện cái hàng đó được nhập bởi ai và nhà cung cấp là ai.Sua va Xoa
+Tách riêng phần thêm là Nhập Hàng
+
+Kiên: Khách hàng và Nhân Viên : Ngoài hiển thị thì thêm chức năng thêm sửa xóa
++ Nhân viên thì thêm chức năng chi tiết: Hiển thị thêm số ngày nghỉ và ghi chú gì đấy
++ Khách Hàng thì thêm 
+
+Phong : Bán Hàng: Sửa thành chữ Quản lý đơn hàng : 
+Hiển thị các đơn hàng và ấn vào chi tiết sẽ hiện lên ai là người bán và chi tiết mua gì số lượng bao nhiêu
+Thống Kê :Theo ngày tháng năm.
+
+Tất cả nếu có sửa Database thì báo lại t luôn để t sửa vì sẽ dùng chung 1 cái database cuối cùng là trên máy t
+Còn sửa hình ảnh hay cái gì thì báo lên nhóm để thảo luận xong sửa. Để tránh sự không đồng nhất về giao diện. 
