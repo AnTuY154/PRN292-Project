@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Change Infomation</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/3607879eb4.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	 <nav id="nav" class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="nav-bar">
+                <ul class="navbar-nav mr-auto nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link  " href="./create.html">Tạo Đơn Hàng</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link active " href="./changeInfo.html">Chỉnh sửa thông tin cá nhân</a>
+                    </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="./Login.html">Đăng Xuất</a>
+                    </li>
+										
+                </ul>
+            </div>
+        </div>
+    </nav>
+		<div style="max-width: 900px; border: 1px solid black; margin: 0 auto; padding: 10px;">
+			<form>
+  			<div class="row">
+  				<div class="col-md-6">
+  					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Tên người dùng</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="nguyen manh hoang">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Tên đăng nhập</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="hoangnmhe130341">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Vai trò</label>
+					    <div class="col-sm-8">
+					      <div>
+						      <select class="custom-select" id="inlineFormCustomSelect">
+						        <option selected>Admin</option>
+						        <option value="1">User</option>
+						        <option value="2">Sales</option>
+						      </select>
+						    </div>
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Điện thoại</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="0123456789">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Ngày sinh</label>
+					    <div class="col-sm-8">
+					      <input type="date" class="form-control" value="2020-01-02">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Email</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="hoangnmhe130341@fpt.edu.vn">
+					    </div>
+					</div>
+  				</div>
+  				<div class="col-md-6">
+  					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Địa chỉ</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="Hà Nội">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Khu vực</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="Hai Bà Trưng">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Phường xã</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="Quỳnh Mai">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Ngôn ngữ</label>
+					    <div class="col-sm-8">
+					      <div>
+						      <select class="custom-select" id="inlineFormCustomSelect">
+						        <option >English</option>
+						        <option value="1"selected>Tiếng Việt</option>
+						      </select>
+						    </div>
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Ghi chú</label>
+					    <div class="col-sm-8">
+					      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					    </div>
+					</div>
+					<button type="submit" class="btn btn-success my-1 float-right ml-1">Lưu (F9)</button>
+					<button type="submit" class="btn btn-primary my-1 float-right">Huỷ</button>
+  				</div>
+  			</div>
+
+		</form>
+		<h3>Đăng nhập và bảo mật</h3>
+		<form style="border: 1px solid black; padding: 10px;">
+		  <div class="row">
+		  	<div class="col-md-8">
+		  		<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Mật khẩu cũ</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="Hà Nội">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Mật khẩu mới</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="Hai Bà Trưng">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-4 col-form-label">Xác nhận</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control" value="Quỳnh Mai">
+					    </div>
+					</div>
+		  	</div>
+		  	<div class="col-md-4">
+		  		<button type="submit" class="btn btn-success my-1 ml-1 mt-5">Đổi mật khẩu</button>
+		  	</div>
+		  </div>
+		</form>
+		<h3>Các thiết bị đã đăng nhập</h3>
+		<form style="border: 1px solid black; padding: 10px;">
+		  <div class="row">
+		  	<div class="col-md-12">
+		  		<div class="form-group row">
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" value="Thiết bị 1" readonly>
+					      
+					    </div>
+					    <div class="col-sm-2">
+					    	<button type="submit" class="btn btn-success"><i class="fas fa-trash-alt float-right"></i></button>
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" value="Thiết bị 2" readonly>
+					      
+					    </div>
+					    <div class="col-sm-2">
+					    	<button type="submit" class="btn btn-success"><i class="fas fa-trash-alt float-right"></i></button>
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" value="Thiết bị 3" readonly>
+					      
+					    </div>
+					    <div class="col-sm-2">
+					    	<button type="submit" class="btn btn-success"><i class="fas fa-trash-alt float-right"></i></button>
+					    </div>
+					</div>
+		  	</div>
+		  </div>
+		</form>
+		</div>
+		
+			
+
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
