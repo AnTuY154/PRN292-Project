@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+<div>
+   <nav id="nav" class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="nav-bar">
+                <ul class="navbar-nav mr-auto nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./ManageOrder.html">Quản lý đơn hàng</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="./AcceptOrder.html">Đơn hàng đặt trước</a>
+                    </li>            
+                    <li class="nav-item">
+                        <a class="nav-link" href="./EditStaff.html">Nhân viên</a>
+                    </li>
+				
+                    <li class="nav-item">
+                        <a class="nav-link" href="./addmodify.html">Thêm hàng hóa</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="./Login.html">Đăng Xuất</a>
+                    </li>
+					
+					
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<br><br> 
+<div class="col mb-4">
+  <div class="row">
+    <div class="col-sm-12  col-md-3">
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-link" >Thông Tin</a>
+        <a class="navbar-link" >Lịch Sử Thanh Toán</a>
+      </nav>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="col mb-4">
+    <div class="row">
+      <div class="col-sm-12  col-md-4">
+        Mã Hóa Đơn:  HD000045
+        <br>
+        Thời Gian:  8/7/2019 9:40
+        <br>
+        Khách Hàng:  Thanh Hằng
+        <br>
+        Bảng Giá:  Bảng giá chung
+        <br>
+        Mã Đặt Hàng: 
+      </div>
+      <div class="col-sm-12 col-md-4 ">
+        Trạng Thái:  Hoàn thành
+        <br>
+        Chi Nhánh:  Chi nhánh trung tâm
+        <br>
+        Người Bán:  Phạm Hùng
+        <br>
+        Người Tạo:  Phạm Hùng
+        <br>
+        Kênh Bán:  Bán trực tiếp
+      </div>
+      <div class="col-sm-12 col-md-4 ">
+       <div class="form-group">
+        <textarea class="form-control" rows="3" cols="8">Ghi Chú...</textarea>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div>
+    <div class="col mb-4">
+      <div class="row">
+        <div class="col-sm-12  col-md-8">
+          <nav class="navbar navbar-light bg-light">
+            <a class="navbar-link" >Mã Hàng</a>
+            <a class="navbar-link" >Tên Hàng</a>
+            <a class="navbar-link" >Số Lượng</a>
+            <a class="navbar-link" >Đơn Giá</a>
+            <a class="navbar-link" >Giảm Giá</a>
+            <a class="navbar-link" >Đã Bán</a>
+            <a class="navbar-link" >Thành Tiền</a>
+          </nav>
+        </div>
+      </div>
+      <div>
+        &emsp;AA00005&emsp;&emsp;&emsp;Máy Giặt Panasonic&emsp;&emsp;&emsp;&emsp;2&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3.000.000&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.000.000&emsp;&emsp;&emsp;&emsp;&emsp;6.000.000
+      </div>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="col mb-4">
+      <div class="row">
+        <div class="col-sm-12  col-md-2">
+        </div>
+        <div class="col-sm-12  col-md-6">
+          <button type="button" class="btn btn-secondary">Mã Phiếu</button>&emsp;
+          <button type="button" class="btn btn-secondary">Lưu</button>&emsp;
+          <button type="button" class="btn btn-secondary">Trả Hàng</button>&emsp;
+          <button type="button" class="btn btn-secondary">In</button>&emsp;
+          <button type="button" class="btn btn-secondary">Xuất File</button>&emsp;
+          <button type="button" class="btn btn-secondary">Sao Chép</button>&emsp;
+          <button type="button" class="btn btn-secondary">Hủy Bỏ</button>&emsp;
+        </div>
+      </div>
+    </div>
+    </html>

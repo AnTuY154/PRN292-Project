@@ -1,0 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	margin-top: 50px;
+}
+#nav-bar > ul > li > a {
+	color: #c6c6c7 !important
+}
