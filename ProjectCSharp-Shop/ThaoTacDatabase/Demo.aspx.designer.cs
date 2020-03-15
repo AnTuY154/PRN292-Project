@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectCSharp_Shop.UI
+namespace ProjectCSharp_Shop.ThaoTacDatabase
 {
 
 
-    public partial class Index
+    public partial class Demo
     {
     }
 }
